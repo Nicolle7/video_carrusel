@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video carrusel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./video.css">
+    <link rel="stylesheet" href="./video2.css">
+</head>
+<body>
+    <header class="header">
+        <img tabindex="0" class="header__img" src="../logo.png" alt="Logo">
+        <div class="header__menu">
+            <div tabindex="0" class="header__menu--profile">
+                <img src="../icon12.png" alt="user">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li tabindex="0" ><a href="../error/error.html">Cuenta</a></li>
+                <li tabindex="0" ><a href="../inicioSesion/inicioDeSesion.html">Cerrar sesión</a></li>
+                <li tabindex="0" ><a href="../error/error.html">Otra pagina</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="main">
+        <h2 tabindex="0" class="main__texto">¿Qué quieres ver hoy?</h2>
+        <input style="color:white" class="input" type="text" placeholder="Buscar...">
+    </section>
+    <section class="carrousel">
+        <div class="carrousel__container">
+            <p tabindex="0" id="lista">Mi lista</p>
+
+         <div class="carrousel-item">
+             <img tabindex="0" class="carrousel-item_img" src="aromas.png" alt="aromas">
+             <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img tabindex="0" id="play" src="play1.png" alt="play">
+                    <img tabindex="0" id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p tabindex="0" id="title">Self care</p>
+                    <p tabindex="0" id="subtitle">Esta imagen es sobre <br> autocuidado</p>
+                </div>
+             </div>
+         </div>
+
+
+         <div class="carrousel-item">
+            <img tabindex="0" class="carrousel-item_img" src="avion.jpg" alt="avion">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img tabindex="0" id="play" src="play1.png" alt="play">
+                    <img tabindex="0" id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p tabindex="0" id="title">Avión</p>
+                    <p tabindex="0" id="subtitle">Este es un avión entre <br>edificios</p>
+                </div>
+             </div>
+        </div>
+
+
+        <div class="carrousel-item">
+            <img tabindex="0" class="carrousel-item_img" src="flor.jpg" alt="rosas">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img tabindex="0" id="play" src="play1.png" alt="play">
+                    <img tabindex="0" id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p tabindex="0" id="title">Una rosa</p>
+                    <p tabindex="0" id="subtitle">Esta rosa se parece a la rosa<br> del principito</p>
+                </div>
+             </div>
+        </div>
+
+
+        <div class="carrousel-item">
+            <img tabindex="0" class="carrousel-item_img" src="mujer.jpg" alt="mujer">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img tabindex="0" id="play" src="play1.png" alt="play">
+                    <img tabindex="0" id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p tabindex="0" id="title">Una mujer</p>
+                    <p tabindex="0" id="subtitle">Relajandose en la playa</p>
+                </div>
+             </div>
+        </div>
+
+
+        <div class="carrousel-item">
+            <img tabindex="0" class="carrousel-item_img" src="hojas.jpg" alt="hojas">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img tabindex="0" id="play" src="play1.png" alt="play">
+                    <img tabindex="0" id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p tabindex="0" id="title">Hojas</p>
+                    <p tabindex="0" id="subtitle">Hojas de un arbol</p>
+                </div>
+             </div>
+        </div>
+
+
+         <div class="carrousel-item">
+            <img tabindex="0" class="carrousel-item_img" src="cuarto.jpg" alt="habitacion">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img tabindex="0" id="play" src="play1.png" alt="play">
+                    <img tabindex="0" id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p tabindex="0" id="title">Habitación</p>
+                    <p tabindex="0" id="subtitle">Ejemplo de habitación<br> minimalista</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="carrousel-item">
+            <img class="carrousel-item_img" src="cactus.jpeg" alt="cactus">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Cactus</p>
+                    <p id="subtitle">Un cactus dentro de una<br> cámara</p>
+                </div>
+             </div>
+         </div>
+
+         <div class="carrousel-item">
+            <img class="carrousel-item_img" src="comida.jpg" alt="comida">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Desayuno</p>
+                    <p id="subtitle">Este es un desayuno de <br> domingo</p>
+                </div>
+             </div>
+         </div>
+    </div>
+    </section>
+
+    <section class="carrousel" id="carrusel2">
+        <div class="carrousel__container">
+            <p tabindex="0" id="lista">Tendencias</p>
+
+         <div class="carrousel-item">
+             <img class="carrousel-item_img" src="aromas.png" alt="aromas">
+             <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Self care</p>
+                    <p id="subtitle">Esta imagen es sobre <br> autocuidado</p>
+                </div>
+             </div>
+         </div>
+
+
+         <div class="carrousel-item">
+            <img class="carrousel-item_img" src="avion.jpg" alt="avion">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Avión</p>
+                    <p id="subtitle">Este es un avión entre <br>edificios</p>
+                </div>
+             </div>
+        </div>
+
+
+        <div class="carrousel-item">
+            <img class="carrousel-item_img" src="flor.jpg" alt="rosas">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Una rosa</p>
+                    <p id="subtitle">Esta rosa se parece a la rosa<br> del principito</p>
+                </div>
+             </div>
+        </div>
+
+
+        <div class="carrousel-item">
+            <img class="carrousel-item_img" src="mujer.jpg" alt="mujer">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Una mujer</p>
+                    <p id="subtitle">Relajandose en la playa</p>
+                </div>
+             </div>
+        </div>
+
+
+        <div class="carrousel-item">
+            <img class="carrousel-item_img" src="hojas.jpg" alt="hojas">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Hojas</p>
+                    <p id="subtitle">Hojas de un arbol</p>
+                </div>
+             </div>
+        </div>
+
+
+         <div class="carrousel-item">
+            <img class="carrousel-item_img" src="cuarto.jpg" alt="habitacion">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Habitación</p>
+                    <p id="subtitle">Ejemplo de habitación<br> minimalista</p>
+                </div>
+             </div>
+         </div>
+
+
+         <div class="carrousel-item">
+            <img class="carrousel-item_img" src="cactus.jpeg" alt="cactus">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Cactus</p>
+                    <p id="subtitle">Un cactus dentro de una<br> cámara</p>
+                </div>
+             </div>
+         </div>
+
+
+         <div class="carrousel-item">
+            <img class="carrousel-item_img" src="comida.jpg" alt="comida">
+            <div class="carrousel-item_details">
+                <div class="carrousel-item_details_img">
+                    <img id="play" src="play1.png" alt="play">
+                    <img id="pause" src="pause.png" alt="pause">
+                </div>
+                <div class="carrousel-item_details_text">
+                    <p id="title">Desayuno</p>
+                    <p id="subtitle">Este es un desayuno de <br> domingo</p>
+                </div>
+             </div>
+         </div>
+    </div>
+    </section>
+    <footer class="final">
+        <a href="../error/error.html">Términos de uso</a>
+        <a href="../error/error.html">Declaración de privacidad</a>
+        <a href="../error/error.html">Centro de ayuda</a>
+    </footer>
+</body>
+</html>

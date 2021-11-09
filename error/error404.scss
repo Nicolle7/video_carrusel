@@ -1,0 +1,66 @@
+$fondo: #986D8E;
+
+body {
+    background-color: $fondo; 
+    margin: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 120px;
+}
+.header__img {
+    width: 50px;
+    height: 27px;
+    margin: 20px 0px 0px 20px;
+}
+.error{
+    width:100%;
+    min-height: calc(100vh - 200px);
+}
+.error__caja{
+    color: white;
+    min-height: calc(100vh - 500px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caja {
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+
+        h1 {
+            margin: 0%;
+        }
+}
+
+.animation{
+    font-size: 40px;
+    margin:10px;
+    animation-name:primera-a ;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+@keyframes primera-a {
+    from { transform: none; }
+    50% { transform: scale(1.1); }
+    to { transform: none; }
+}
+.final{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 30px 10px 15px 20px;
+        }
+}
+
+.final a:hover {
+    text-decoration: underline;
+}
